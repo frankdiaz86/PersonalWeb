@@ -7,7 +7,7 @@ $datos = array(
                                 <img class="d-block w-100" src="./assets/img/img-1.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./assets/img/img-2.png" alt="Second slide">
+                                <img class="d-block w-100" src="./assets/img/img-2.jpg" alt="Second slide">
                             </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/img/img-3.jpg" alt="Third slide">

@@ -1,9 +1,8 @@
-$('#carouselExampleControls .carousel').carousel()
+$('.carousel').carousel()
 var dominio = window.location.protocol + "//" + window.location.host;
 $(".clientes").on('click', function(evento){
     evento.preventDefault();
     const cliente = $(this).data('cliente');
-    console.log(cliente);
     $.ajax({
         data: {cliente:cliente},
         type: "POST",
